@@ -1,60 +1,44 @@
-li{
-    list-style-type: none; 
-    .active{
-        
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        gap: 0.5rem;
-        text-decoration: none;
-        color: #00aff0;
-        font-family: "font-2", Arial, sans-serif;
-        font-weight: bold; 
-        font-size: 1rem;
-        padding: .875rem 1.25rem .625rem;
+.wrap{
 
-        svg{
-            rotate: 180deg;
-
-        }
-    }
-        
-    .notActive{
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        gap: 0.5rem;
-        text-decoration: none;
-        color: #000;
-        font-family: "font-2", Arial, sans-serif;
-        font-weight: bold; 
-        font-size: 1rem;
-        padding: .875rem 1.25rem .625rem;
-
-        &:hover{
+    li{
+        list-style-type: none; 
+        .active{
+            
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            text-decoration: none;
             color: #00aff0;
+            font-family: "font-2", Arial, sans-serif;
+            font-weight: bold; 
+            font-size: 1rem;
+            padding: .875rem 1.25rem .625rem;
+
+            svg{
+                rotate: 180deg;
+
+            }
         }
+            
+        .notActive{
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            text-decoration: none;
+            color: #000;
+            font-family: "font-2", Arial, sans-serif;
+            font-weight: bold; 
+            font-size: 1rem;
+            padding: .875rem 1.25rem .625rem;
+
+            &:hover{
+                color: #00aff0;
+            }
+        }
+    
     }
-
    
-  
-}
 
-.menuActive{
-    position: absolute;
-    background-color: #fff;
-    top: 100%;
-    z-index: 99999;
-    transition-duration: 200ms;
-    transition-timing-function: ease-in-out;
-    visibility: visible;
-    opacity: 1;
-}
-
-.menuNotActive{
-    transition-duration: 200ms;
-    transition-timing-function: ease-in-out;
-    transition-property: visibility, opacity;
-    visibility: hidden;
-    opacity: 0;
 }

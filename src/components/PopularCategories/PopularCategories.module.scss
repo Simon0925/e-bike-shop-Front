@@ -1,6 +1,6 @@
 .wrap{
     max-width: 75rem;
-    padding: 2.5rem;
+    padding: 3.5rem 2.5rem 2.5rem 2.5rem;
     .line{
         width: 6.5625rem;
         height: 6px;
@@ -13,10 +13,16 @@
         line-height: 1;
         padding-top: 1.25rem;
         font-family: "font-3", Arial, sans-serif;
-        font-weight: normal;
+        font-style: italic;
+        font-weight: bold;
         text-transform: uppercase;
         color: #000;
         margin: 0 0 .75em;
         font-size: 4rem;
+    }
+
+    .container{
+
+        display: flex;
     }
 }
